@@ -19,7 +19,7 @@ Otići na http://www.strela.co.rs/, kliknuti na dugme Prodavnica u headeru, izab
 potom kliknuti na luk koji se zove Samick Sage, i onda proveriti da ime tog luka na njegovoj stranici zaista sadrži reč Samick.*/
 
     /**
-     * The method verifies that when the name of the add contains Samick.
+     * The method verifies that the name of the selected bow contains Samick.
      */
     @Test
     public void containSamick() {
