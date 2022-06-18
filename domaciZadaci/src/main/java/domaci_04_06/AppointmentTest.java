@@ -1,4 +1,4 @@
-package domaci_03_06.domaci_04_06;
+package domaci_04_06;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
