@@ -4,7 +4,7 @@
 
 ## Bootcamp Project folder
 
-Contains content for final project on course   
+Contains final project on course   
 For more info about project go to [Test Plan](https://github.com/stefanzimonjic/itbootcampSZ/blob/main/BootcampProject/TestPlan.md)   
 
 ***   
@@ -14,10 +14,10 @@ For more info about project go to [Test Plan](https://github.com/stefanzimonjic/
 Contains homework assignments during course    
 The goal of the tasks was to practice Selenium and POM
 
-    ***
+***
 
 ## projectMauntaineer
 
-Homework assignment for practice OOP
+Homework assignment for OOP practice
 
    ***
