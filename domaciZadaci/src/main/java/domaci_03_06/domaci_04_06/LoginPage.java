@@ -1,7 +1,8 @@
-package domaci_04_06;
+package domaci_03_06.domaci_04_06;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -16,31 +17,45 @@ public class LoginPage extends BasePage {
         super(driver, driverWait);
     }
 
+    public WebElement getUsername() {
+        return getDriver().findElement(username);
+    }
+
+    public WebElement getPassword() {
+        return getDriver().findElement(password);
+    }
+
+    public WebElement getLoginButton() {
+        return getDriver().findElement(loginButton);
+    }
+
     public void clickOnMakeAppointment (){
         getDriver().findElement(makeAppointment).click();
     }
 
     public void enterUsername (String username){
+        clearField(this.username);
         getDriverWait().until(ExpectedConditions.elementToBeClickable(this.username));
-        getDriver().findElement(this.username).sendKeys(username);
-    }
-
-    public void clickPassword (){
-        getDriver().findElement(this.password).click();
+        getUsername().sendKeys(username);
     }
 
     public void enterPassword (String password){
-        getDriver().findElement(this.password).sendKeys(password);
+        getPassword().sendKeys(password);
     }
 
     public boolean isLoginButtonEnabled (){
-        return getDriver().findElement(this.loginButton).isEnabled();
+        return getLoginButton().isEnabled();
     }
 
     public void clickLoginButton (){
-        getDriver().findElement(this.loginButton).click();
+        getLoginButton().click();
     }
 
+    public void login (String username, String password){
+        enterUsername(username);
+        enterPassword(password);
+        clickLoginButton();
+    }
 
 
 }

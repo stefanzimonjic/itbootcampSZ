@@ -1,4 +1,4 @@
-package domaci_04_06;
+package domaci_03_06.domaci_04_06;
 
 
 /*Napisati program koji testira funkcionalnost zakazivanja na satju https://katalon-demo-cura.herokuapp.com/. Od klasa je potrebno:
