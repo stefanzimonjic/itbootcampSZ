@@ -51,6 +51,6 @@ Experience	Windows Feature Experience Pack 1000.22000.739.0
 
 ## 7. Dependencies used
 
-Selenium version 4.1.4
-Testng version 7.5
-Lombok 1.18.24
+Selenium version 4.1.4   
+Testng version 7.5   
+Lombok 1.18.24   

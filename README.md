@@ -1,4 +1,4 @@
-# Description of repository for projects during my IT Bootcamp course
+# Repository for projects during my IT Bootcamp course
 
 ***   
 
